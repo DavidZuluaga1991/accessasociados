@@ -1,0 +1,65 @@
+<div class="bs-docs-section" ng->
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="well bs-component" ng-show="false">
+                <form name="contactform" class="form-horizontal" role="form" novalidate>
+                    <fieldset>
+                        <legend>Contactenos</legend>
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label" for="inputDefault">Nombre</label>
+                            <div class="col-lg-10">
+                                <input ng-model="contactctrl.comment.name" type="text" class="form-control" id="inputDefault"  placeholder="Nombre" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input ng-model="contactctrl.comment.email" type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group" required>
+                            <label for="inputPassword" class="col-lg-2 control-label">Telefono</label>
+                            <div class="col-lg-10">
+                                <input ng-model="contactctrl.comment.phone" type="text" class="form-control" id="inputPassword" placeholder="Telefono" required>
+                            </div>
+                        </div>
+                        <div class="form-group" required>
+                            <label for="textArea" class="col-lg-2 control-label">Comentarios</label>
+                            <div class="col-lg-10">
+                                <textarea ng-model="contactctrl.comment.body" class="form-control" rows="3" id="textArea" required></textarea>
+                                <!--span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span-->
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="reset" class="btn btn-default" ng-click="contactctrl.clear()">Cancelar</button>
+                                <button type="submit" class="btn btn-primary" ng-click="contactctrl.addcomments()" ng-disabled = "!contactform.$valid">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                Valid : {{ contactform.$valid}}
+            </div>
+            <div class="well bs-component">
+                <fieldset>
+                    <legend>Contactenos</legend>
+                    <div class="well bs-component">
+                        <fieldset>
+                            <legend> Fernando Alvarez Marin </legend>
+                    <h4> 3014044599 - 3055561</h4>
+                    <h4> accexasociados@hotmail.com</h4>
+                        </fieldset>
+                    </div>
+                    <div class="well bs-component">
+                        <fieldset>
+                            <legend>Angelica Maria Alvarez Gallego </legend>
+                    <h4> 3045921356 - 3168802968</h4>
+                    <h4> angelica.accexasociadossas@gmail.com</h4>
+                        </fieldset>
+                    </div>
+                </fieldset>  
+            </div>
+        </div>
+    </div>
+</div>
+

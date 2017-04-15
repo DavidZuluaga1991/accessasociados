@@ -1,0 +1,25 @@
+<div id = "div" class="mycontainer">
+    <img src="img/baner2.jpg" alt="" id="divhead"/>
+    <div id="divbody">
+        <div class="well blockquote"> <div class="panel-default"> <div id="txtbarner"> <h4> {{mainctrl.proyect.barner}}</h4></div></div></div>
+        <div id="divbodymenu" class="well">
+            <div class="left-nav">
+                
+                <accordion close-others="true" >
+                    <accordion-group is-open="isopen" ng-repeat="menus in mainctrl.proyect.menus"> 
+                        <accordion-heading> <h4> {{menus.name}} <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i></h4> </accordion-heading>
+                        <div ng-repeat="submenu in menus.submenus" ><h5> <a ui-sref="{{submenu.item}}" ui-sref-active="active" class="list-group-item">{{submenu.name}}</a></h5></div>
+                    </accordion-group>
+                </accordion>
+            </div>
+            <div class="content">
+            </div>
+        </div>
+        <div id="divbodymenu2" class="well">
+            <ui-view></ui-view>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <p> {{mainctrl.proyect.footer}}</p>
+    </div>
+</div>

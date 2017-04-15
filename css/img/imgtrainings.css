@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/04/2017, 08:57:47 PM
+    Author     : HP PAVILON
+*/
+#imgtime{
+    margin: 320px 0px 0px 730px;
+}
+#imgbasic_accounting{
+    width: 300px;
+    margin: 40px 0px 0px 180px;
+    border-radius: 5px 5px 5px 5px;
+}
+#imgintermediate_accounting{
+    width: 300px;
+    margin: 40px 0px 0px 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+#imgcost_accounting{
+    width: 300px;
+    margin: 40px 0px 0px 180px;
+    border-radius: 5px 5px 5px 5px;
+}
+#imgtax_update{
+    width: 280px;
+    margin: 40px 0px 0px 180px;
+    border-radius: 5px 5px 5px 5px;
+}
+#imgcg_uno{
+    width: 300px;
+    margin: 40px 0px 0px 180px;
+    border-radius: 5px 5px 5px 5px;
+}
+#imginternational_standards{
+    width: 300px;
+    margin: 40px 0px 0px 180px;
+    border-radius: 5px 5px 5px 5px;
+}
+

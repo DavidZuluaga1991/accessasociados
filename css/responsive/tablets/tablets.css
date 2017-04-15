@@ -1,0 +1,138 @@
+/* For tablets: */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/02/2017, 07:37:31 PM
+    Author     : David Zuluaga
+*/
+/*868px - 600px*/
+
+@media only screen and (min-width: 600px) {
+    legend{
+        color: #ffffff;
+    }
+    body {
+      font-size: 12.5px;
+      line-height: 1.42857143;
+    }
+    h1,
+    .h1 {
+      font-size: 53px;
+    }
+    h2,
+    .h2 {
+      font-size: 42px;
+    }
+    h3,
+    .h3 {
+      font-size: 31px;
+    }
+    h4,
+    .h4 {
+      font-size: 15px;
+      line-height: 1.52857143;
+    }
+    h5,
+    .h5 {
+      font-size: 13px;
+      /*line-height: 1.42857143;*/
+    }
+    h6,
+    .h6 {
+      font-size: 8px;
+    }
+    
+    #divbodymenu {
+        width: 205px;
+    }
+    #divbodymenu2{
+        width: 63%;
+    }
+    .modal-footer{
+        padding:25px 20px 20px;
+        margin-top:40px;
+        text-align:right;
+        border-top:1px solid #e5e5e5
+    }
+    .panel-heading{
+        padding:2px 2px;
+        border-bottom:1px solid transparent;
+        border-top-right-radius:3px;
+        border-top-left-radius:3px
+    }
+    /*Class para modificar los items a seleccionar.*/
+    .list-group-item{
+        position:relative;
+        display:block;
+        padding:1px 2px;
+        margin-bottom:-1px;
+        background-color:#fff;
+        border:1px solid #ddd
+    }
+}
+
+@media only screen and (min-width: 630px) { 
+    #divbodymenu {
+        width: 205px;
+    }       
+    #divbodymenu2{
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 680px) { 
+    #divbodymenu {
+        width: 205px;
+    }       
+    #divbodymenu2{
+        width: 67%;
+    }
+}
+
+@media only screen and (min-width: 710px) { 
+    #divbodymenu {
+        width: 208px;
+    }       
+    #divbodymenu2{
+        width: 68%;
+    }
+}
+
+@media only screen and (min-width: 725px) { 
+    #divbodymenu {
+        width: 210px;
+    }       
+    #divbodymenu2{
+        width: 69%;
+    }
+}
+
+@media only screen and (min-width: 750px) { 
+    #divbodymenu {
+        width: 210px;
+    }       
+    #divbodymenu2{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 772px) { 
+    #divbodymenu {
+        width: 210px;
+    }       
+    #divbodymenu2{
+        width: 71%;
+    }
+}
+
+@media only screen and (min-width: 800px) { 
+    #divbodymenu {
+        width: 210px;
+    }       
+    #divbodymenu2{
+        width: 72%;
+    }
+}

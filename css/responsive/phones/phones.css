@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/02/2017, 10:11:20 PM
+    Author     : David Zuluaga
+*/
+
+    /* For mobile phones: */
+
+@media only screen and (max-width: 768px) {
+    body {
+      font-size: 11px;
+      line-height: 1.42857143;
+    }
+    h1,
+    .h1 {
+      font-size: 26px;
+    }
+    h2,
+    .h2 {
+      font-size: 22px;
+    }
+    h3,
+    .h3 {
+      font-size: 18px;
+    }
+    h4,
+    .h4 {
+      font-size: 14px;
+    }
+    h5,
+    .h5 {
+      font-size: 11px;
+    }
+    h6,
+    .h6 {
+      font-size: 7px;
+    }
+    
+    
+    .well {
+      min-height: 10px;
+      padding: 19px;
+      margin-bottom: 20px;
+    }
+    #divbodymenu {
+        width: 205px;
+    }
+    #divbodymenu2{
+        width: 58%;
+    }
+    .panel-heading{
+        padding:1px 2px;
+        border-bottom:1px solid transparent;
+        border-top-right-radius:3px;
+        border-top-left-radius:3px;
+    }
+    .list-group-item{
+        position:relative;
+        display:block;
+        padding:1px 2px;
+        margin-bottom:-1px;
+        background-color:#fff;
+        border:1px solid #ddd;
+    }
+    .modal-footer{
+        padding:25px 20px 20px;
+        margin-top:5px;
+        text-align:right;
+        border-top:1px solid #e5e5e5
+    }
+}
+
+

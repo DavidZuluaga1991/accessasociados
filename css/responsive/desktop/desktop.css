@@ -1,0 +1,293 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/02/2017, 06:32:27 PM
+    Author     : David Zuluaga
+*/
+@media only screen and (min-width: 860px) { 
+    
+    #div{
+        left: 50px; 
+    }
+    #divbodymenu {
+        width: 260px;
+    }       
+    #divbodymenu2{
+        width: 930px;
+    }
+}
+
+@media only screen and (min-width: 900px) { 
+    /*#divbodymenu {
+        width: 210px;
+    }       
+    #divbodymenu2{
+        width: 75%;
+    }*/
+}
+
+@media only screen and (min-width: 990px) { 
+    /*#divbodymenu {
+        width: 210px;
+    }       
+    #divbodymenu2{
+        width: 77%;
+    }*/
+}
+
+@media only screen and (min-width: 1060px) { 
+    /*#divbodymenu {
+        width: 210px;
+    }       
+    #divbodymenu2{
+        width: 79%;
+    }*/
+}
+
+@media only screen and (min-width: 1110px) { 
+    /*#divbodymenu {
+        width: 215px;
+    }       
+    #divbodymenu2{
+        width: 79.5%;
+    }*/
+}
+
+@media only screen and (min-width: 1200px) { 
+    
+    #divbodymenu {
+        width: 245px;
+    }       
+    #divbodymenu2{
+        width: 850px;
+    }
+    
+    #div{
+        width: 1100px;
+    }
+}
+
+@media only screen and (min-width: 1230px) { 
+    
+    #divbodymenu {
+        width: 250px;
+    }       
+    #divbodymenu2{
+        width: 875px;
+    }
+    
+    #div{
+        width: 1130px;
+    }
+}
+
+@media only screen and (min-width: 1250px) { 
+    
+    #divbodymenu {
+        width: 250px;
+    }       
+    #divbodymenu2{
+        width: 885px;
+    }
+    
+    #div{
+        width: 1145px;
+    }
+}
+
+@media only screen and (min-width: 1270px) { 
+    
+    #divbodymenu2{
+        width: 905px;
+    }
+    
+    #div{
+        width: 1165px;
+    }
+}
+
+@media only screen and (min-width: 1290px) { 
+    body {
+        font-size: 12.7px;
+        line-height: 1.42857143;
+    }
+    #divbodymenu {
+        width: 250px;
+    }       
+    #divbodymenu2{
+        width: 920px;
+    }
+    
+    #div{
+        width: 1180px;
+    }
+}
+/* ---- Modificando solo el div ------- */
+
+@media only screen and (min-width: 1300px) { 
+    #div{
+        left: 50px;
+    }
+}
+
+@media only screen and (min-width: 1330px) {     
+    #div{
+        left: 60px;
+    }
+}
+
+@media only screen and (min-width: 1340px) {     
+    #div{
+        left: 70px;
+    }
+}
+
+@media only screen and (min-width: 1350px) {     
+    #div{
+        left: 90px;
+    }
+}
+
+@media only screen and (min-width: 1380px) { 
+    #div{
+        left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1410px) { 
+    body {
+        font-size: 12.8px;
+        line-height: 1.42857143;
+    }
+    
+    #div{
+        left: 110px;
+    }
+}
+
+@media only screen and (min-width: 1430px) { 
+    #div{
+        left: 120px;
+        /*background-color: chartreuse;*/
+    }
+}
+
+@media only screen and (min-width: 1450px) { 
+    
+    #div{
+        left: 135px;
+    }
+}
+
+@media only screen and (min-width: 1485px) { 
+    
+    #div{
+        left: 150px;
+    }
+}
+
+@media only screen and (min-width: 1510px) { 
+    #div{
+        left: 160px;
+    }
+}
+
+@media only screen and (min-width: 1550px) { 
+    body {
+        font-size: 13px;
+        line-height: 1.42857143;
+    }
+    
+    #div{
+        left: 170px;
+    }
+}
+
+@media only screen and (min-width: 1570px) { 
+    
+    #div{
+        left: 180px;
+    }
+}
+
+@media only screen and (min-width: 1590px) { 
+    
+    #div{
+        left: 190px;
+    }
+}
+
+@media only screen and (min-width: 1600px) { 
+    
+    #div{
+        left: 210px;
+    }
+}
+
+@media only screen and (min-width: 1635px) { 
+    
+    #div{
+        left: 220px;
+    }
+}
+
+@media only screen and (min-width: 1660px) { 
+    
+    #div{
+        left: 230px;
+    }
+}
+
+@media only screen and (min-width: 1680px) { 
+    
+    #div{
+        left: 245px;
+    }
+}
+
+@media only screen and (min-width: 1699px) { 
+    #div{
+        left: 270px;
+    }
+}
+
+@media only screen and (min-width: 1810px) {
+    #div{
+        left: 275px;
+    }
+}
+
+@media only screen and (min-width: 1840px) {
+    #div{
+        left: 280px;
+    }
+}
+
+@media only screen and (min-width: 1860px) {
+    #div{
+        left: 290px;
+    }
+}
+@media only screen and (min-width: 1870px) {
+    #div{
+        left: 300px;
+    }
+}
+@media only screen and (min-width: 1875px) {
+    #div{
+        left: 330px;
+    }
+}
+
+@media only screen and (min-width: 1880px) {
+    body {
+        font-size: 14px;
+        line-height: 1.42857143;
+    }
+    #div{
+        left: 360px;
+    }
+}
