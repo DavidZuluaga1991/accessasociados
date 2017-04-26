@@ -32,6 +32,6 @@ app.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $urlR
         for (var valor of link) {
             var MenuState = { name: valor.name, url: '/' + valor.url, templateUrl: valor.templateUrl,controller: valor.controller,controllerAs: valor.as,parent: valor.parent};
             $stateProvider.state(valor.name,MenuState);
-        }
+        };
     }]);
 
