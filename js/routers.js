@@ -29,7 +29,7 @@ app.config(['$stateProvider','$urlRouterProvider',function($stateProvider, $urlR
             {name: 'CA6', url: "c_normas_internacionales", templateUrl: 'views/menu/trainings/international_standards.html', controller: "ItemController",as: "itemctrl",parent: "main"},
             {name: 'CO1', url: "contactenos", templateUrl: 'views/menu/contact/contact.html', controller: "contactcontroller",as: "contactctrl",parent: "main"}
         ];
-        for (var valor of link) {
+        for (var valor in link) {
             var MenuState = { name: valor.name, url: '/' + valor.url, templateUrl: valor.templateUrl,controller: valor.controller,controllerAs: valor.as,parent: valor.parent};
             $stateProvider.state(valor.name,MenuState);
         };
